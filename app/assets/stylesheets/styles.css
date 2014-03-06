@@ -61,6 +61,18 @@ nav li a {
   background:green;
 }
 
+nav a:hover {
+  background-color:orange;
+  color:blue;
+  border-radius:50px;
+}
+
+nav a {
+
+  transition-delay: 80ms;
+  transition-duration: 1s;
+  transition_property: border-radius;
+}
 /*header*/
 
 header {
