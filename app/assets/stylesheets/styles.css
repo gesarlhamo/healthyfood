@@ -62,7 +62,7 @@ nav li a {
 }
 
 nav a:hover {
-  background-color:orange;
+  background-color:lightgreen;
   color:blue;
   border-radius:50px;
 }
@@ -107,32 +107,51 @@ header:after {
 }
 
 /*main*/
+
+
 #main div {
+
   margin-bottom: 1em;
   position: relative;
+
 }
 
 #main div .wrapper{
+
     width: 100%;
     max-width:1400px;
     margin: 0 auto;
+
 }
 
 #main img {
+
   border-radius: 1px;
+  
 }
+
+
 
 /* resturants */
 
 #resturants div.aboutresturants{
+
   background-color: white;
   float: left;
   min-height: 250px;
   margin: 1%;
   padding: 2%;
   width: 27.33%;
+  transition-duration:2s;
+  transition-delay:100ms;
+  transition-property: border-radius;
 }
 
+
+#resturants div.aboutresturants:hover{
+  background-color:lightgreen;
+  border-radius:20%;
+}
 
 
 
