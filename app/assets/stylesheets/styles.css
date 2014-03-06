@@ -168,7 +168,16 @@ header:after {
   margin: 1%;
   padding: 2%;
   width: 27.33%;
+  transition-duration:2s;
+  transition-delay:100ms;
+  transition-property: border-radius;
 }
+
+#bars div.aboutbars:hover{
+  background-color:lightgreen;
+  border-radius:20%;
+}
+
 
 /*fonts*/
 
