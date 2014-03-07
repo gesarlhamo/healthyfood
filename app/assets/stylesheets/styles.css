@@ -126,7 +126,7 @@ header:after {
 
 #main img {
 
-  border-radius: 1px;
+  border-radius: 30px;
   
 }
 
@@ -153,6 +153,9 @@ header:after {
   border-radius:20%;
 }
 
+#resturants div img{
+  width:100%;
+}
 
 /*bars*/
 #bars {
@@ -178,6 +181,37 @@ header:after {
   border-radius:20%;
 }
 
+#bars div img{
+  width:100%;
+}
+
+/*nightclubs*/
+
+#nightclubs {
+  clear:both;
+}
+
+#nightclubs div.aboutnightclubs{
+
+  background-color: white;
+  float: left;
+  min-height: 250px;
+  margin: 1%;
+  padding: 2%;
+  width: 27.33%;
+  transition-duration:2s;
+  transition-delay:100ms;
+  transition-property: border-radius;
+}
+
+#nightclubs div.aboutnightclubs:hover{
+  background-color:lightgreen;
+  border-radius:20%;
+}
+
+#nightclubs div img{
+  width:100%;
+}
 
 /*fonts*/
 
